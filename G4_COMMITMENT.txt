@@ -1,0 +1,8 @@
+MeshTeacher Route B - pre-evaluation freeze commitment (gate G4, source/residual ablation)
+
+SHA-256(G4_FREEZE_MANIFEST.json) = 762c00033a8acc0b7e90b1a955b598e2cc019e1e7cd829e7714eba8e5126582e
+
+Created 2026-10-26 (Europe/Rome), before any solve of the new sealed test3 (24 instances)
+and ood3 (12 instances) designs. The G4 manifest lists the S-f student (four source-dependent
+input channels masked), Addendum G4 (SHA-256 9df4409cf06741ce933e7e7600574b8cbf7e3d16ef421938e3d9ee2889023001),
+the evaluation procedure, the analysis code, the new designs, and the G2 and G3 manifests.
