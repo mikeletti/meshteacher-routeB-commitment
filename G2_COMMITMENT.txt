@@ -1,0 +1,6 @@
+MeshTeacher Route B - pre-evaluation freeze commitment (gate G2)
+
+SHA-256(G2_FREEZE_MANIFEST.json) = 77fc5f52f95a94c41f27efbb5b55eb78f654ddf384b18143cc9cbaa74f6dea1b
+
+Created 2026-10-25 (Europe/Rome), before any solve of the sealed test (24 instances)
+and out-of-distribution (12 instances) designs.

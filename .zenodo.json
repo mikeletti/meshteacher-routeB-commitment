@@ -1,0 +1,20 @@
+{
+  "title": "MeshTeacher Route B — pre-evaluation freeze commitment (SHA-256)",
+  "upload_type": "other",
+  "description": "<p>This record time-stamps a cryptographic commitment made before the evaluation of the sealed test and out-of-distribution sets of the MeshTeacher Route B study (learned anisotropic metrics for closed-loop finite-element mesh adaptation, manufactured T2-M benchmark).</p><p>The SHA-256 digest below is that of the file G2_FREEZE_MANIFEST.json, which lists the SHA-256 digests of the frozen student network, all solver and analysis code, the study protocol and its addenda (G1, P2, G2 evaluation procedure), and the parameter files of the sealed test (24 instances) and OOD (12 instances) designs. None of those instances had been solved when this record was created. The manifest and all listed files will be released with the article; anyone can then verify them against this digest.</p><p>SHA-256(G2_FREEZE_MANIFEST.json) = 77fc5f52f95a94c41f27efbb5b55eb78f654ddf384b18143cc9cbaa74f6dea1b</p>",
+  "creators": [
+    {
+      "name": "Micheletti, Stefano",
+      "affiliation": "Politecnico di Milano"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "anisotropic mesh adaptation",
+    "Riemannian metric",
+    "equivariant neural network",
+    "finite elements",
+    "preregistration"
+  ]
+}
