@@ -1,16 +1,15 @@
-# MeshTeacher Route B — pre-evaluation freeze commitment
+# MeshTeacher Route B — pre-evaluation freeze commitments
 
-This repository time-stamps a cryptographic commitment made before the evaluation of the sealed
-test and out-of-distribution sets of the MeshTeacher Route B study (learned anisotropic metrics
-for closed-loop finite-element mesh adaptation, manufactured T2-M benchmark).
+This repository time-stamps cryptographic commitments made before evaluating sealed test sets of
+the MeshTeacher Route B study (learned anisotropic metrics for closed-loop finite-element mesh
+adaptation, manufactured T2-M benchmark). Each release is archived on Zenodo.
 
-`G2_COMMITMENT.txt` contains the SHA-256 digest of `G2_FREEZE_MANIFEST.json`. That manifest lists
-the SHA-256 digests of the frozen student network, all solver and analysis code, the study
-protocol and its addenda, and the parameter files of the sealed test (24 instances) and OOD
-(12 instances) designs. None of those instances had been solved when this commitment was made.
+| Gate | File | SHA-256 of the manifest | What it freezes |
+|---|---|---|---|
+| G2 (release v1.0-g2) | `G2_COMMITMENT.txt` | `77fc5f52f95a94c41f27efbb5b55eb78f654ddf384b18143cc9cbaa74f6dea1b` | frozen student network, code, protocol and addenda G1/P2, sealed test (24) and OOD (12) designs |
+| G3 (release v1.1-g3) | `G3_COMMITMENT.txt` | `92951e830361bb40ad9733eedbe5b6c11d803a0e174b8c070f061f8c0cf17bf7` | hybrid policy (Addendum H, k = 2), its code and analysis, new sealed test2 (24) and ood2 (12) designs |
 
-The manifest and every listed file will be released with the article; anyone can then verify
-them against this digest:
+None of the corresponding instances had been solved when each commitment was made. The manifests
+and every listed file will be released with the article; anyone can verify them with
 
-    sha256sum G2_FREEZE_MANIFEST.json
-    # expected: 77fc5f52f95a94c41f27efbb5b55eb78f654ddf384b18143cc9cbaa74f6dea1b
+    sha256sum G2_FREEZE_MANIFEST.json G3_FREEZE_MANIFEST.json
